@@ -21,15 +21,19 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  width: 100%;
-  height: 100vh;
+*{
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 header {
-  width: 100%;
+ left: 0%;
+  position: sticky;
+  top: 0;
   background-color: var(--color4);
+  /* border: 1px solid red; */
+  
 }
 
 .container {
@@ -37,6 +41,7 @@ header {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+ 
 }
 
 nav {
@@ -45,18 +50,20 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* border: 1px solid red; */
+
 }
 
 .navbar-brand {
   background-color: var(--color2);
-  width:;
-  height: ;
+  width: 16%;
+  /* height: 16%; */
   display: flex;
   border-radius: 50%;
-  background: 2px solid red;
-}
 
+}
+.bg{
+  border: 1px solid red;
+}
 .navbar-brand i {
   font-size: 4rem;
   color: var(--color0);
