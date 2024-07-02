@@ -11,15 +11,18 @@ import WeDo from './Component/WeDo/WeDo'
 import Card from './Component/Card/Card'
 
 import './App.css'
+import Championingfuture from './Downwardpages/Championingfuture';
 
 const App = ({ children }) => {
   return (
+    <>
+     <Navbar/>
       <div className="relative">
           <LeftBorderImage />
           <RightBorderImage />
           {/* Your navigation component */}
           {/* Your main content */}
-          <Navbar/>
+         
           <LandingPage/>
           <div className='container-margin mt-8 mb-8'>
               <div className='grid lg:grid-cols-2 sm:grid-cols-1 '>
@@ -58,8 +61,9 @@ const App = ({ children }) => {
               </div>
           </div>
           <WeDo/>
+          <Championingfuture/>
           {children}
-      </div>
+      </div></>
   );
 };
 

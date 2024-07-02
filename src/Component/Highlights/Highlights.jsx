@@ -1,6 +1,7 @@
 
 import Marquee from 'react-fast-marquee';
 import './Highlights.css';
+import TextAnimation01 from '../../AnimateText/AnimatedText01';
 
 const callouts = [
   { id: 1, title: '₹35,498.55 Cr[$4.33Bn]', text: 'Assets Under Management (AUM)' },
@@ -16,7 +17,7 @@ const callouts = [
 const Highlights = () => {
   return (
     <div className="marquee text-white py-4">
-      <h1 className="high-head text-center text-[#f48172]">Key Highlights (As on March 31st, 2024)</h1>
+      <h1 className="high-head text-center text-[#f48172]"><TextAnimation01 text={'Key Highlights (As on March 31st, 2024)'}/> </h1>
       <Marquee gradient={false}>
         {callouts.map((callout, index) => (
           <div key={index} className="mx-8 marquee-content-box">

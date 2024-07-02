@@ -7,3 +7,25 @@
   width: 86%;
   margin: auto;
 }
+@media (max-width: 640px) {
+  .sm\:flex-col {
+      flex-direction: column !important;
+  }
+}
+.main-div-am >ul.main-div-am > div > ul 
+
+{
+  font-size: 24px !important;
+}
+.main-div-am b{
+  font-size: 20px;
+  font-weight: 600;
+  color: #884534;
+}
+.main-div-am li{
+  font-size: 20px;
+  list-style:disc;
+}
+.main-div-am{
+  padding-left: 2%;
+}

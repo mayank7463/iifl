@@ -21,16 +21,13 @@ const Navbar = () => {
               <a className="nav-link" href="#">home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">about</a>
+              <a className="nav-link" href="#">Corporate Overview</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">videos</a>
+              <a className="nav-link" href="#">Statutory Reports</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">competences</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">contacts</a>
+              <a className="nav-link" href="#">Financial Statements <div className='dropdown-nav-ele'> <span> hiii1<br /></span><span>hii2<br /></span> </div> </a>
             </li>
           </ul>
           <div className={`hamburger ${isActive ? 'active' : ''}`} onClick={toggleNavbar}>

@@ -33,6 +33,7 @@ header {
   top: 0;
   background-color: var(--color4);
   /* border: 1px solid red; */
+  z-index: 100000;
   
 }
 
@@ -96,11 +97,12 @@ nav {
 .nav-item::before {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
   height: 2px;
   background-color: var(--color1);
   left: 0;
-  bottom: 0;
+  top: 70%;
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 650ms cubic-bezier(.68, -.55, .265, 1.55);
@@ -231,4 +233,17 @@ nav {
     bottom: 0;
   }
 
+}
+.dropdown-nav-ele{
+  background: white;
+  border: 10px;
+  position: absolute;
+  top: 90%;
+  z-index: 1000000;
+  padding: 10px;
+  width: 100%;
+  display: none;
+}
+.nav-item:hover .dropdown-nav-ele {
+  display: block;
 }
