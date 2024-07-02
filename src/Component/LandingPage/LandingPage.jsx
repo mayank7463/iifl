@@ -10,9 +10,14 @@ import Financial from '../Financial/Financial';
 import HomeOwnership from '../HomeOwnership/HomeOwnership';
 import WhoWeAreHome from '../WhoWeAreHome/WhoWeAreHome';
 import Environment from '../Environment/Environment';
+import LeftBorderImage from '../Border/LeftBorderImage';
+import RightBorderImage from '../Border/RightBorderImage';
 function LandingPage() {
   return (
-    <div>
+    <div className='relative'>
+        <LeftBorderImage />
+                <RightBorderImage />
+               
       <motion.div initial={{ opacity: 0, y: "20%" }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, ease: "easeInOut" }} className='relative bg-[#faf3e9]'>
         <motion.img src="./LandingPage/Main_img.png" alt="" className=' m-auto h-[93vh]' />
         <div className='absolute top-[40%] left-[60%]'>

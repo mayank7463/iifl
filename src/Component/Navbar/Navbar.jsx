@@ -26,7 +26,7 @@ const Navbar = () => {
               <Link className="nav-link" to="/">
                 Corporate Overview<div className='dropdown-nav-ele '>
                   <div className='flex flex-wrap justify-between'>
-                    <ul className='w-full md:w-[48%]'>
+                    <ul className='sm:w-full md:w-[48%]'>
                       <li><Link to="/journey">Looking Back At A Momentous Journey</Link></li>
                       <li><Link to='/where'>Where We Are</Link></li>
                       <li><Link to='/wedo'>What We Do For You</Link></li>
@@ -38,7 +38,7 @@ const Navbar = () => {
                       <li><Link to='/building-strength'>Building Strength for Tomorrow</Link></li>
                       <li><Link to='/value-creation'>Our Approach to Value Creation</Link></li>
                     </ul>
-                    <ul className='w-full md:w-[48%]'>
+                    <ul className='sm:w-full md:w-[48%]'>
                       <li><Link to='/digital-tech'>Digital Technology and
                         Productivity Enhancement</Link></li>
                       <li><Link to='/esg-commitments'>ESG Commitments</Link></li>
@@ -59,7 +59,7 @@ const Navbar = () => {
               Statutory Reports
                 <div className='dropdown-nav-ele'> 
                   <div className='flex flex-wrap justify-between'>
-                    <ul className='w-full md:w-[48%]'>
+                    <ul className='sm:w-full md:w-[48%]'>
                     <li><Link>Directors’ Report</Link></li>
                     <li><Link>Report on Corporate Governance</Link></li>
                     <li><Link>Management Discussion and Analysis</Link></li>
@@ -73,7 +73,7 @@ const Navbar = () => {
               <Link className="nav-link" to="/">Financial Statements 
                 <div className='dropdown-nav-ele'>
                 <div className='flex flex-wrap justify-between'>
-                    <ul className='w-full md:w-[48%]'>
+                    <ul className='sm:w-full md:w-[48%]'>
                       <b>Standalone</b>
                       <li><Link>Independent Auditor’s Report</Link></li>
                       <li><Link>Standalone Balance Sheet</Link></li>
@@ -82,7 +82,7 @@ const Navbar = () => {
                       <li><Link>Standalone Statement of Changes in Equity</Link></li>
                       <li><Link>Notes to the Financial Statements</Link></li>
                     </ul>
-                    <ul className='w-full md:w-[48%]'>
+                    <ul className='sm:w-full md:w-[48%]'>
                     <b>Consolidated</b>
                       <li><Link>Independent Auditor’s Report</Link></li>
                       <li><Link>Consolidated Balance Sheet</Link></li>

@@ -29,11 +29,12 @@ import Awards from './Pages/Awards'
 
 const App = ({ children }) => {
     return (
-        <div className="relative">
-            <BrowserRouter>
-                <LeftBorderImage />
-                <RightBorderImage />
-                <Navbar />
+        <>
+         <BrowserRouter>
+         <Navbar />
+        <div >
+           
+              
                 <Routes>
                     <Route path='/' element={<LandingPage />} />
                     <Route path='/journey' element={<Journey />} />
@@ -58,8 +59,10 @@ const App = ({ children }) => {
                     {children}
                 </Routes>
                 <Footer />
-            </BrowserRouter>
+            
         </div>
+        </BrowserRouter>
+        </>
     );
 };
 

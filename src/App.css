@@ -32,3 +32,6 @@
 .nav-item{
   list-style: none !important;
 }
+.react-multi-carousel-list{
+  height: 500px !important;
+}
