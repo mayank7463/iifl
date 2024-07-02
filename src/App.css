@@ -29,3 +29,6 @@
 .main-div-am{
   padding-left: 2%;
 }
+.nav-item{
+  list-style: none !important;
+}

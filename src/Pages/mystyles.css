@@ -1,0 +1,26 @@
+.text-orange{
+    color: orangered;
+  }
+  .marginal{
+    width: 86%;
+    margin: auto;
+  }
+  .text-blue{
+    color: #1a3382;
+  }
+  p,li{
+    font-size: 18px;
+  }
+  li{
+    list-style-type: disc;
+    margin: 3% 0;
+  }
+  .text-brown{
+    color: brown;
+  }
+  .text-bury{
+    color: #dda291;
+  }
+  .bg-bury{
+    background-color: rgb(221, 162, 145, 0.1);
+  }
