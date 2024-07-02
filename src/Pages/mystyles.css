@@ -12,7 +12,7 @@
     font-size: 18px;
   }
   li{
-    list-style-type: disc;
+    /* list-style-type: disc; */
     margin: 3% 0;
   }
   .text-brown{
