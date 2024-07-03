@@ -36,7 +36,7 @@ useEffect(() => {
       opacity: 1,
       y: 0,
       transition: {
-        duration: 0.5,
+        duration: 0.01,
         ease: 'easeInOut',
       },
     },
@@ -49,7 +49,7 @@ useEffect(() => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.05, // Adjust the stagger duration as needed
+        staggerChildren: 0.01, // Adjust the stagger duration as needed
       },
     },
   };

@@ -1,5 +1,5 @@
-*, 
-*::before, 
+*,
+*::before,
 *::after {
   margin: 0;
   padding: 0;
@@ -21,20 +21,29 @@ html {
   box-sizing: border-box;
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+body {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
 header {
- left: 0%;
+  left: 0%;
   position: sticky;
   top: 0;
   background-color: var(--color4);
-  /* border: 1px solid red; */
   z-index: 100;
-  
+  border-bottom: 2px solid #d6c0a0;
+ 
 }
 
 .container {
@@ -42,7 +51,7 @@ header {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 1.5rem;
- 
+  
 }
 
 nav {
@@ -51,20 +60,19 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .navbar-brand {
   background-color: var(--color2);
-  width: 16%;
-  /* height: 16%; */
+  width: 18%;
   display: flex;
   border-radius: 50%;
-
 }
-.bg{
+
+.bg {
   border: 1px solid red;
 }
+
 .navbar-brand i {
   font-size: 4rem;
   color: var(--color0);
@@ -89,7 +97,6 @@ nav {
 
 .nav-item {
   position: relative;
-  /* padding: 5% 0; */
   line-height: 2;
   transition-delay: .4s;
   visibility: hidden;
@@ -112,7 +119,7 @@ nav {
 .nav-item:hover::before {
   transform: scaleX(1);
   transform-origin: left;
-} 
+}
 
 /* Hamburger Menu */
 .hamburger {
@@ -233,9 +240,24 @@ nav {
   .nav-list.active {
     bottom: 0;
   }
-
+  .navbar-brand {
+    background-color: var(--color2);
+    width: 48%;
+    display: flex;
+    border-radius: 50%;
+  }
+  header {
+    left: 0%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color4);
+    z-index: 100;
+    border-bottom: 2px solid #d6c0a0;
+    padding: 0% 4%;
+  }
 }
-.dropdown-nav-ele{
+
+.dropdown-nav-ele {
   background: white;
   border: 10px;
   position: absolute;
@@ -246,9 +268,13 @@ nav {
   width: 40vw;
   display: none;
   padding: 30px;
-  /* padding-left: 20px; */
-  /* padding: 4%; */
 }
+
 .nav-item:hover .dropdown-nav-ele {
   display: block;
 }
+
+/* Navbar.css or your CSS file */
+
+
+

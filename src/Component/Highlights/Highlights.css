@@ -43,4 +43,10 @@
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
   }
+
+  @media screen and (max-width: 500px) {
+    .high-head{
+      font-size: 25px;
+    }
+  }
   
