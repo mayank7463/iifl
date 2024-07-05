@@ -18,13 +18,13 @@ function Card() {
         },
         {
           imgSrc: "./Home/home_img-5.png",
-          title: "Mission",
-          description: "Enabling sustainable housing through strong foundation of innovation, sustainable lending practices and social impact."
+          title: "Vision",
+          description: "Enabling sustainable housing through strong foundation of  innovation, sustainable lending practices and social impact."
         },
         {
           imgSrc: "./Home/home_img-6.png",
-          title: "Mission",
-          description: "Our core values serve as a moral compass in all our activities. Fairness, Integrity and Transparency - FIT is the driving force behind all that we do."
+          title: "Core Values",
+          description: "Our core values serve as a moral compass in all our activities. Fairness, Integrity and Transparency - FIT is thedriving force behind all that we do."
         }].map((card, index) => (
           <motion.div
             key={index}

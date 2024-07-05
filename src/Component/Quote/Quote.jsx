@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-// import ReadMoreButton from '../ReadMore/ReadMoreButton';
+import ReadMoreButton from '../ReadMore/ReadMoreButton';
 
 const Quote = () => {
   const settings = {
@@ -12,6 +12,8 @@ const Quote = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: true,
+    autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1024,
@@ -30,22 +32,22 @@ const Quote = () => {
         <div className="carousel-container">
           <Slider {...settings}>
             <div className='p-4'>
-              <h1 className='text-center lg:text-5xl mb-4 font-bold text-[#f47732]'>Message from MD & CEO</h1>
+              <h1 className='text-center lg:text-5xl mb-4 font-bold text-[#f47732]'>Chairman’s Message</h1>
               <div className="slide">
                 <img src="./Quote/quote_img-1.webp" className='object-contain mx-auto' alt="Quote 1" />
               </div>
-              {/* <div className='flex justify-center mt-8 pb-4'>
+              <div className='flex justify-center mt-8 pb-4'>
                 <a href="Chairman-message"> <ReadMoreButton/></a>
-              </div> */}
+              </div>
             </div>
             <div className=' p-4'>
-              <h1 className='text-center lg:text-5xl mb-4 font-bold text-[#f47732]'>Message from WTD & CFO</h1>
+              <h1 className='text-center lg:text-5xl mb-4 font-bold text-[#f47732]'>CEO’s Message</h1>
               <div className="slide">
                 <img src="./Quote/quote_img-2.webp" className='object-contain mx-auto' alt="Quote 2" />
               </div>
-              {/* <div className='flex justify-center mt-8 pb-4'>
+              <div className='flex justify-center mt-8 pb-4'>
                 <a href="CFO"> <ReadMoreButton/></a>
-              </div> */}
+              </div>
             </div>
           </Slider>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ReadMoreButton from '../ReadMore/ReadMoreButton'
 function WhoWeAreHome() {
   return (
     <div>
@@ -13,6 +13,9 @@ function WhoWeAreHome() {
                         <p>IIFL Home Finance Ltd. is dedicated to providing affordable home loans, empowering the EWS/LIG segments to achieve homeownership. The company champions eco-friendly building practices, promoting sustainable development. With a state-of-the-art IT infrastructure offers a seamless loan experience, streamlining the process from application to closure. The company’s asset-light model, enabled by co-lending arrangements, allows expansion of their reach into deeper markets across India. IIFL Home Finance Ltd. goes beyond financing homes. They contribute to building a sustainable and inclusive future, one affordable home at a time</p>
                     </div>
                 </div>
+                <div className='mb-4'>
+                    <a href="Progress"><ReadMoreButton/></a>
+              </div>
             </div>
     </div>
   )
