@@ -4,8 +4,10 @@ import 'react-multi-carousel/lib/styles.css';
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
+import { Link } from 'react-router-dom';
 import './Financial.css';
 import ReadMoreButton from '../ReadMore/ReadMoreButton';
+
 
 // Register necessary components and plugins
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ChartDataLabels);
@@ -148,7 +150,7 @@ const Financial = () => {
         {renderCharts()}
       </Carousel>
       <div className='mb-4'>
-        <a href="Progress"><ReadMoreButton /></a>
+        <Link to={"/financial-highlights"}><ReadMoreButton /></Link>
       </div>
       <div className='flex justify-center mt-16'>
         <img src="./Home/home_img-2.png" alt="" className='w-full' />

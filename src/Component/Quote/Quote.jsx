@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ReadMoreButton from '../ReadMore/ReadMoreButton';
+import { Link } from 'react-router-dom';
 
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
@@ -80,7 +81,7 @@ const Quote = () => {
                 <img src="./Quote/quote_img-1.webp" className='object-contain mx-auto' alt="Quote 1" />
               </div>
               <div className='flex justify-center mt-8 pb-4'>
-                <a href="Chairman-message"> <ReadMoreButton/></a>
+                <Link to={"/chairman-msg"}> <ReadMoreButton/></Link>
               </div>
             </div>
             <div className=' p-4'>
@@ -89,7 +90,7 @@ const Quote = () => {
                 <img src="./Quote/quote_img-2.webp" className='object-contain mx-auto' alt="Quote 2" />
               </div>
               <div className='flex justify-center mt-8 pb-4'>
-                <a href="CFO"> <ReadMoreButton/></a>
+                <Link to={"/ceo-msg"}> <ReadMoreButton/></Link>
               </div>
             </div>
           </Slider>
