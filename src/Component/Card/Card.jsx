@@ -10,7 +10,7 @@ function Card() {
 
   return (
     <div className="container-margin mx-auto mt-8 mb-8 px-4 p-16">
-      <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4">
+      <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-10">
         {[{
           imgSrc: "./Home/home_img-4.png",
           title: "Mission",
@@ -32,13 +32,13 @@ function Card() {
             animate="visible"
             variants={cardVariants}
             transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="bg-[#fef9f5] p-4 rounded-lg shadow-lg"
+            className="bg-[#fef9f5] p-4 rounded-lg shadow-lg relative card-main-div "
           >
-            <div className="flex gap-4 items-center pl-14">
-              <img src={card.imgSrc} alt="" className="w-[19%] h-[10%] object-cover" />
+            <div className="flex gap-4 items-center ">
+              <img src={card.imgSrc} alt="" className=" object-contain" />
               <span className="flex justify-center items-center text-3xl font-bold">{card.title}</span>
             </div>
-            <div className="m-16">
+            <div className="p-4 absolute top-[0%] h-full w-full card-abs-thing">
               <p className='text-3xl'>{card.description}</p>
             </div>
           </motion.div>

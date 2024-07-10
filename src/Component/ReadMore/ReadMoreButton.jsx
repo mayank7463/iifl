@@ -3,7 +3,7 @@ import './ReadMoreButton.css'
 const ReadMoreButton = () => {
   return (
     <div className='flex justify-center'>
-          <button className=" flex justify-center w-36 h-10 border-2 font-400 border-[#87283E] rounded text-lg px-2 py-0.5 transition-all duration-500 ease hover:pl-0 custom-button">
+          <button className=" flex justify-center border-2 font-400 border-[#87283E] rounded text-2xl px-5 py-2 transition-all duration-500 ease hover:pl-2 custom-button">
               Read more
           </button>
     </div>
