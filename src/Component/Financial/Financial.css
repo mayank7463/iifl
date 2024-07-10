@@ -5,3 +5,13 @@
 .react-multiple-carousel__arrow--left {
     left:0%
 }
+
+.react-multiple-carousel__arrow {
+    min-width: 30px;
+    min-height: 30px;
+    background: #87283e;
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: #dda2a5;
+}

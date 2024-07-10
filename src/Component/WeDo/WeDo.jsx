@@ -2,15 +2,15 @@ import React from 'react'
 
 function WeDo() {
   return (
-    <div className='container-margin '>
+    <div className='container-margin'>
         <div className='mt-16 '>
-            <p className='text-7xl font-bold text-[#f47732] py-8'>What We Do For You</p>
-            <p className='text-5xl'>#Sapnonkosachkarnekaseedharaasta</p>
+            <p className='lg:text-7xl sm:text-5xl font-bold text-[#f47732] py-8'>What We Do For You</p>
+            <p className='lg:text-5xl sm:text-2xl'>#Sapnonkosachkarnekaseedharaasta</p>
             <div className='mt-16'>
                  <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
                      <div>
                         <p className='text-4xl  font-bold text-[#1b328a]'>Home Loan</p>
-                        <p className='text-4xl max-w-[49%] pt-8'>We not only offer home loan solutions
+                        <p className='lg:text-4xl lg:max-w-[49%] pt-8'>We not only offer home loan solutions
                         for the purchase, construction and
                         renovation of homes, we believe in
                         creating spaces for the masses of the

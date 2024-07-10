@@ -19,14 +19,11 @@ const Navbar = () => {
           </div>
           <ul className={`nav-list ${isActive ? 'active' : ''}`}>
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
               <div className="nav-link" onClick={toggleNavbar}>
                 Corporate Overview
                 <div className={`dropdown-nav-ele ${isActive ? 'active' : ''}`}>
                   <div className='flex flex-wrap justify-between'>
-                    <ul className='sm:w-full md:w-[48%]'>
+                    <ul className='sm:w-full md:w-[48%] cursor-pointer'>
                       <li><Link to="/journey">Looking Back At A Momentous Journey</Link></li>
                       <li><Link to='/where'>Where We Are</Link></li>
                       <li><Link to='/wedo'>What We Do For You</Link></li>

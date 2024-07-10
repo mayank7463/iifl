@@ -6,7 +6,7 @@ const CEOMessage = () => {
       <div className="marginal mx-auto p-4">
         {/* Header */}
         <div className=" mt-5">
-          <h1 className='font-bold text-7xl text-orange my-10'>
+          <h1 className='font-bold lg:text-7xl text-4xl text-orange my-10'>
             CEO’s Message
           </h1>
         </div>
@@ -22,7 +22,7 @@ const CEOMessage = () => {
 
         <div className="mt-10">
           <div>
-            <h4 className='text-blue font-semibold text-4xl mb-3'>Dear Stakeholders,</h4>
+            <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Dear Stakeholders,</h4>
             <p className="text-[#575756] mt-4">
               It makes me immensely happy to state that during FY24, we
               witnessed steady growth across our product portfolio. However,
@@ -93,7 +93,7 @@ const CEOMessage = () => {
           </div>
 
           <div className="mt-10">
-            <h4 className='text-blue font-semibold text-4xl mb-3'>
+            <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>
               Powering The Home Finance Ecosystem
             </h4>
             <p className="text-[#575756] mt-4">
@@ -120,7 +120,7 @@ const CEOMessage = () => {
           </div>
 
           <div className="mt-10">
-            <h4 className='text-blue font-semibold text-4xl mb-3'>
+            <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>
               Staying Ahead In The Technology Curve
             </h4>
             <p className="text-[#575756] mt-4">
@@ -169,7 +169,7 @@ const CEOMessage = () => {
           </div>
 
           <div className="mt-10">
-            <h4 className='text-blue font-semibold text-4xl mb-3'>
+            <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>
               Empowering Every Citizen
             </h4>
             <p className="text-[#575756] mt-4">
@@ -210,7 +210,7 @@ const CEOMessage = () => {
           </div>
 
           <div className="mt-10">
-            <h4 className='text-blue font-semibold text-4xl mb-3'>
+            <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>
               Supporting Aspirations, Growing Sustainably
             </h4>
             <p className="text-[#575756] mt-4">
@@ -238,7 +238,7 @@ const CEOMessage = () => {
           </div>
 
           <div className="mt-10">
-            <h4 className='text-blue font-semibold text-4xl mb-3'>Monu Ratra</h4>
+            <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Monu Ratra</h4>
             <p className="text-[#575756]">
               Executive Director (ED) & Chief Executive Officer (CEO)
             </p>
