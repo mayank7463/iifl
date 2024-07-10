@@ -4,7 +4,7 @@ function FinancialHigh() {
   return (
     <div className='container-margin mt-16 mb-16'>
         <div>
-            <p className='text-6xl font-bold  text-[#f47732] pt-16'>Financial Highlights</p>
+            <p className='lg:text-6xl text-4xl font-bold  text-[#f47732] pt-16'>Financial Highlights</p>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8 mt-16'>
                 <div>
                     <img src="./FinancialHigh/financial_img-1.png" alt="" />

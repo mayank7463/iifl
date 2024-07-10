@@ -4,6 +4,47 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import ReadMoreButton from '../ReadMore/ReadMoreButton';
 
+const CustomPrevArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      className={`${className} custom-prev`}
+      style={{
+        ...style,
+        display: 'block',
+        background: '#f47732',
+        borderRadius: '50%',
+        width: '30px', // Adjust width as needed
+        height: '30px', // Adjust height as needed
+      }}
+      onClick={onClick}
+    >
+      Prev
+    </button>
+  );
+};
+
+const CustomNextArrow = (props) => {
+  const { className, style, onClick } = props;
+  return (
+    <button
+      className={`${className} custom-next`}
+      style={{
+        ...style,
+        display: 'block',
+        background: '#f47732',
+        borderRadius: '50%',
+        width: '30px', // Adjust width as needed
+        height: '30px', // Adjust height as needed
+      }}
+      onClick={onClick}
+    >
+      Next
+    </button>
+  );
+};
+
+
 const Quote = () => {
   const settings = {
     dots: true,
@@ -14,6 +55,8 @@ const Quote = () => {
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 2000,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -27,7 +70,7 @@ const Quote = () => {
   };
 
   return (
-    <div className='container mx-auto px-4'>
+    <div className='container mx-auto px-12'>
       <div className='quote-section pt-2'>
         <div className="carousel-container">
           <Slider {...settings}>

@@ -5,7 +5,7 @@ const ChairmansMessage = () => {
     <div className="marginal mx-auto p-4">
       {/* Header */}
       <div className="mt-5">
-        <h1 className='font-bold text-7xl text-orange my-10'>
+        <h1 className='font-bold lg:text-7xl text-4xl text-orange my-10'>
           Chairman’s Message
         </h1>
       </div>
@@ -17,7 +17,7 @@ const ChairmansMessage = () => {
 
       <div className="mt-10">
         <div>
-          <h4 className='text-blue font-semibold text-4xl mb-3'>Dear Stakeholders,</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Dear Stakeholders,</h4>
           <p className="text-[#575756] mt-4">
             In a country as vast as India, home-ownership still remains an
             elusive prospect for many. At IIFL Home Loans, we believe in
@@ -46,7 +46,7 @@ const ChairmansMessage = () => {
         </div>
 
         <div className="mt-10">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>Increasing Housing Demand</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Increasing Housing Demand</h4>
           <p className="text-[#575756] mt-4">
             Driven by rising income levels, enhanced affordability and
             substantial government support, the Indian housing finance
@@ -65,7 +65,7 @@ const ChairmansMessage = () => {
         </div>
 
         <div className="mt-10">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>Fulfilling Home Ownership Aspirations</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Fulfilling Home Ownership Aspirations</h4>
           <p className="text-[#575756] mt-4">
             A surge in housing demand continues to be noticed in India, with
             a growing preference for mid-to-premium and luxury segments. At
@@ -110,7 +110,7 @@ const ChairmansMessage = () => {
         </div>
 
         <div className="mt-10">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>Growing A Healthy Company</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Growing A Healthy Company</h4>
           <p className="text-[#575756] mt-4">
             Our numbers have been good this year. The spread between our
             borrowing and lending has been stellar which is a testament to
@@ -145,7 +145,7 @@ const ChairmansMessage = () => {
         </div>
 
         <div className="mt-10">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>Towards A Sustainable Future</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Towards A Sustainable Future</h4>
           <p className="text-[#575756] mt-4">
             We have secured over $450 Million in funding from leading
             Development Finance Institutions (DFIs) such as the U.S.
@@ -187,7 +187,7 @@ const ChairmansMessage = () => {
         </div>
 
         <div className="mt-10">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>Moving Forward</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>Moving Forward</h4>
           <p className="text-[#575756] mt-4">
             Housing demand in India continues to increase on the back of
             growing urbanisation and rising household income. This creates
@@ -233,7 +233,7 @@ const ChairmansMessage = () => {
         </div>
         
         <div className="mt-10">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>S. Sridhar</h4>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>S. Sridhar</h4>
           <p className="text-[#575756]">Chairman</p>
         </div>
       </div>

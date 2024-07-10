@@ -4,13 +4,13 @@ const Footer = () => {
   return (
     
 
-<footer class=" bg-[#68534c] mt-10 mb-0 ">
+<footer class=" bg-[#2d363d] mt-10 mb-0 ">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between text-white">
-            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+        <div class="flex sm:items-center  text-white justify-center items-center">
+            {/* <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src="./Navbar/iifl_logo.svg" class="h-17" alt="Flowbite Logo" />
-            </a>
-            <ul class="flex flex-wrap items-center mb-6 text-xl font-medium gap-4 sm:mb-0 ">
+            </a> */}
+            <ul class="flex flex-wrap items-center mb-6  font-medium gap-4 sm:mb-0 ">
                 <li>
                     <a target='_blank' href="https://www.iifl.com/finance/about-us" class="hover:underline me-4 md:me-6">About</a>
                 </li>
