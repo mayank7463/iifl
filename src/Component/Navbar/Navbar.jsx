@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <nav>
           <div className="navbar-brand ">
-            <img src="./Navbar/iifl_logo.svg" alt="" className=''/>
+           <Link to={'/'}><img src="./Navbar/iifl_logo.svg" alt="" className=''/></Link>
           </div>
           <ul className={`nav-list ${isActive ? 'active' : ''}`}>
             <li className="nav-item">

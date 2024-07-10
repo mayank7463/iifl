@@ -25,6 +25,7 @@ import RobustGov from './Component/RobustGov/RobustGov'
 import RiskManagement from './Pages/RiskManagement'
 import BOD from './Pages/BOD'
 import Awards from './Pages/Awards'
+import WhoWeAre from './Component/WhoWeAre/WhoWeAre';
 
 
 const App = ({ children }) => {
@@ -37,8 +38,8 @@ const App = ({ children }) => {
               
                 <Routes>
                     <Route path='/' element={<LandingPage />} />
-                    <Route path='/journey' element={<Journey />} />
-                    <Route path='/where' element={<WhereWeAre />} />
+                    <Route path='/journey' element={<Journey/>} />
+                    <Route path='/where' element={<WhereWeAre/>} />
                     <Route path='/wedo' element={<WeDo />} />
                     <Route path='/onehome' element={<OneHome />} />
                     <Route path='/chairman-msg' element={<ChairmansMessage/>} />
@@ -56,6 +57,7 @@ const App = ({ children }) => {
                     <Route path='/risk-management' element={<RiskManagement/>} />
                     <Route path='/bod' element={<BOD/>} />
                     <Route path='/awards' element={<Awards/>} />
+                    <Route path='/who-we-are' element={<WhoWeAre/>} />
                     {children}
                 </Routes>
                 <Footer />
