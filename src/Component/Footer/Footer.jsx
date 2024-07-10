@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     
 
-<footer class=" bg-[#2d363d] mt-10 mb-0 ">
+<footer class=" bg-[#2d363d]  mb-0 ">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="flex sm:items-center  text-white justify-center items-center">
             {/* <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
