@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./DownloadButton.css";
+import { Link } from 'react-router-dom';
 
 const DownloadButton = () => {
   const [isDownloading, setIsDownloading] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
-  const [buttonText, setButtonText] = useState("Download report");
+  const [buttonText, setButtonText] = useState("Download Full report");
 
   useEffect(() => {
     if (isDownloading) {
@@ -23,11 +24,12 @@ const DownloadButton = () => {
   };
 
   return (
+    <Link target="_blank" to={'./pdf/IIFL Home Finance Ltd. Annual Report 2023-24_(Low)_21.06.24.pdf'}>
     <button
-      className={`relative overflow-hidden inline-grid items-center justify-center border border-gray-400 bg-white rounded-lg px-4 h-12 w-[40%] text-gray-500 ${
+      className={`relative overflow-hidden inline-grid items-center justify-center border  bg-white rounded-2xl py-4 w-[50%] text-black text-bold text-2xl ${
         isDownloading ? "is-downloading" : ""
       } ${isComplete ? "is-complete" : ""}`}
-      onClick={handleButtonClick}
+    
     >
       <span className="icon transform transition-transform duration-350 ease-in-out pl-2">
         <span className="block max-w-8 max-h-8">
@@ -91,6 +93,7 @@ const DownloadButton = () => {
       </span>
       <span className="bar absolute bottom-[-0.0625em] left-[-5px] h-[0.25em] w-[calc(100%+10px)] transform scale-x-0 origin-left bg-blue-600 transition-transform duration-[5s]"></span>
     </button>
+    </Link>
   );
 };
 
