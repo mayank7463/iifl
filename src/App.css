@@ -35,3 +35,7 @@
 .react-multi-carousel-list{
   height: 500px !important;
 }
+
+li{
+  list-style-type: disc;
+}

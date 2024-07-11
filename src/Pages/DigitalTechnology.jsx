@@ -3,7 +3,7 @@ import React from 'react'
 const DigitalTechnology = () => {
     return (
         <div className='marginal'>
-            <h4 className='text-orange text-7xl font-semibold my-10'>
+            <h4 className='text-orange lg:text-7xl text-5xl font-semibold my-10'>
                 Digital Technology and <br /> Productivity Enhancement
             </h4>
             <div className='flex flex-wrap justify-between'>

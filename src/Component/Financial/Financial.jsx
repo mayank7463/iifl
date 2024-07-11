@@ -106,7 +106,7 @@ const Financial = () => {
   };
 
   return (
-    <div className='container-margin'>
+    <div className='container-margin graph'>
       <h2 className='text-center text-5xl font-bold text-[#f47732] py-8'>Financial Highlights</h2>
       <Carousel
         additionalTransfrom={0}

@@ -1,9 +1,9 @@
 const BOD = () => {
   return (
-    <div className="marginal mx-auto p-4">
+    <div className="marginal mb-8 p-4">
       {/* Board of Directors Header */}
       <div className="mt-5 border-black">
-        <h1 className='font-bold text-7xl text-orange my-10'>
+        <h1 className='font-bold lg:text-7xl text-4xl text-orange my-10'>
           Board of Directors
         </h1>
 
@@ -317,7 +317,7 @@ const BOD = () => {
             </p>
           </div>
         </div>
-        <div className="border-t-2 border-gray-400 mt-5"></div>
+        {/* <div className="border-t-2 border-gray-400 mt-5"></div> */}
       </div>
     </div>
   );

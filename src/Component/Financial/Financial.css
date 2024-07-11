@@ -15,3 +15,7 @@
 .react-multiple-carousel__arrow:hover {
     background: #dda2a5;
 }
+
+.graph li{
+    list-style-type: none;
+}

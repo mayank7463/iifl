@@ -6,10 +6,10 @@ const BuildingStrength = () => {
         <div className='marginal my-9'>
             <div className='flex flex-wrap justify-between'>
                 <div className='w-full md:w-[48%]'>
-                    <h1 className='font-bold text-7xl text-orange mb-10'>
+                    <h1 className='font-bold lg:text-7xl text-4xl text-orange mb-10'>
                         Building Strength for<br />Tomorrow
                     </h1>
-                    <h4 className='text-blue my-3 font-bold text-4xl'>
+                    <h4 className='text-blue my-3 font-bold lg:text-4xl text-3xl'>
                         Empowering the Everyday <br /> Indian with Global Support.
                     </h4>
                     <p>
@@ -25,7 +25,7 @@ const BuildingStrength = () => {
 
                 <div className='w-full md:w-[31%] my-10 justify-center'>
                     <img src="./pages/bl2.png" className='w-[30%]' alt="" />
-                    <h4 className='text-orange my-5 font-bold text-4xl'>
+                    <h4 className='text-orange my-5 font-bold lg:text-4xl text-3xl'>
                         International Finance Corporation (IFC)
                     </h4>
                     <p className='text-brown my-3'>Investment</p>
@@ -40,7 +40,7 @@ const BuildingStrength = () => {
                 </div>
                 <div className='w-full md:w-[31%] my-10'>
                     <img src="./pages/bl4.png" className='w-[30%]' alt="" />
-                    <h4 className='text-orange my-5 font-bold text-4xl'>
+                    <h4 className='text-orange my-5 font-bold lg:text-4xl text-3xl'>
                         U.S. International Development Finance Corporation (DFC)
                     </h4>
                     <p className='text-brown my-3'>Investment</p>
@@ -61,7 +61,7 @@ const BuildingStrength = () => {
                 </div>
                 <div className='w-full md:w-[31%] my-10'>
                     <img src="./pages/bl3.png" className='w-[30%]' alt="" />
-                    <h4 className='text-orange my-5 font-bold text-4xl'>
+                    <h4 className='text-orange my-5 font-bold lg:text-4xl text-3xl'>
                     Asian Development Bank (ADB)
                     </h4>
                     <p className='text-brown my-3'>Investment</p>
