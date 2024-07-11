@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="container">
+      <div className="container nav-li">
         <nav>
           <div className="navbar-brand ">
            <Link to={'/'}><img src="./Navbar/iifl_logo.svg" alt="" className=''/></Link>

@@ -350,3 +350,6 @@ border-bottom: none;
 .nav-link{
   cursor: pointer;
 }
+.nav-li li{
+  list-style-type: none;
+}

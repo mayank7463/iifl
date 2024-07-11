@@ -7,6 +7,27 @@ function WhoWeAre() {
             <div className='mt-16'>
                 
                 <p className='lg:text-6xl text-4xl font-bold text-[#f47732] py-4'>Who We Are</p>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-[#f4f4f3] p-16 mt-8'>
+                    <div className='flex flex-col pt-16 text-3xl'>
+                        <div>
+                            This beautiful mural, displayed at the IIFL Home Finance Ltd. head office in Gurgaon, depicts an Indian home with
+                            each room representing spaces relevant to women in the household. At IIFL HFL, we firmly believe that women, as the
+                            pillars of any and every Indian household, hold a significant position in the home buying process. Women are not only
+                            breaking barriers but also are redefining how they use the spaces in the house with each room symbolizing different
+                            activities asserting their independence. 
+                        </div>
+                        <br />
+                           <div>From the Chaukhat (main door) to the Chhat (terrace), every room in the mural is a symbol of independence and freedom.
+                            This artwork celebrates the financial inclusion of women and their journey toward homeownership. It illustrates how
+                            women are breaking free from traditional norms and creating spaces where they can live, grow, and thrive. We reckon,
+                            women are no longer confined by traditional roles and expectations, while claiming their own homes, redefining spaces,
+                            and crafting their own stories!</div>
+                    </div>
+                    <div>
+                           <img src="./WhoWeAre/Art.webp" alt="" />
+                    </div>
+                  
+                </div>
                 <p className='lg:text-4xl text-3xl font-bold text-[#dda29f] pt-16'>IIFL Home Finance Ltd. is dedicated to providing affordable home loans, empowering
                     the EWS/LIG segments to achieve homeownership. The company champions ecofriendly
                     building practices, promoting sustainable development. With a stateof-
@@ -17,7 +38,7 @@ function WhoWeAre() {
                     to building a sustainable and inclusive future, one affordable home at a time.</p>
             </div>
             <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16'>
-                <div className='text-3xl  flex flex-col justify-end'>
+                <div className='text-3xl  flex flex-col pt-8'>
                     <p>IIFL Home Finance Ltd., India’s leading
                     affordable housing finance company is
                     a subsidiary of IIFL Finance Ltd., with
@@ -44,7 +65,7 @@ function WhoWeAre() {
                 </div>
                 
 
-                <div className='w-[80%]'>
+                <div className='w-[55%]'>
                      <img src="./WhoWeAre/img-1.svg" alt="" className='w-full'/>
                 </div>
             </div>
