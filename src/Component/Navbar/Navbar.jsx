@@ -56,9 +56,9 @@ const Navbar = () => {
                 <div className={`dropdown-nav-ele ${isActive ? 'active' : ''}`}>
                   <div className='flex flex-wrap justify-between'>
                     <ul className='sm:w-full md:w-[48%]'>
-                      <li><Link to="#">Directors’ Report</Link></li>
-                      <li><Link to="#">Report on Corporate Governance</Link></li>
-                      <li><Link to="#">Management Discussion and Analysis</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Directors Report.pdf'}>Directors’ Report</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Report on Corporate Governance.pdf'}>Report on Corporate Governance</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Management Discussion and Analysis.pdf'}>Management Discussion and Analysis</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -71,12 +71,12 @@ const Navbar = () => {
                   <div className='flex flex-wrap justify-between'>
                     <ul className='sm:w-full md:w-[48%]'>
                       <b>Standalone</b>
-                      <li><Link to="#">Independent Auditor’s Report</Link></li>
-                      <li><Link to="#">Standalone Balance Sheet</Link></li>
-                      <li><Link to="#">Standalone Statement of Profit and Loss</Link></li>
-                      <li><Link to="#">Standalone Statement of Cash Flows</Link></li>
-                      <li><Link to="#">Standalone Statement of Changes in Equity</Link></li>
-                      <li><Link to="#">Notes to the Financial Statements</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Independent Auditor’s Report.pdf'}>Independent Auditor’s Report</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Standalone Statement of Cash Flows.pdf'}>Standalone Balance Sheet</Link></li>
+                      <li><Link target='_blank' to="#">Standalone Statement of Profit and Loss</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Standalone Statement of Cash Flows.pdf'}>Standalone Statement of Cash Flows</Link></li>
+                      <li><Link target='_blank' to="./pdf/Standalone Statement of Changes in Equity.pdf">Standalone Statement of Changes in Equity</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Notes to the Financial Statements standalone.pdf'}>Notes to the Financial Statements</Link></li>
                     </ul>
                     <ul className='sm:w-full md:w-[48%]'>
                       <b>Consolidated</b>

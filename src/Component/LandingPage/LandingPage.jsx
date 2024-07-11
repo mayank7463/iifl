@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import './LandingPage.css'
 import TextAnimation from '../../AnimateText/AnimatedText';
 import TextAnimation01 from '../../AnimateText/AnimatedText01';
@@ -14,13 +14,24 @@ import LeftBorderImage from '../Border/LeftBorderImage';
 import RightBorderImage from '../Border/RightBorderImage';
 import CardDemo from '../Card/CardDemo';
 function LandingPage() {
+  const imgarrurl = ['./Main_img.png', './Main_img2.png'];
+  const [imgToShow, setImageToShow] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImageToShow((prevIndex) => (prevIndex + 1) % imgarrurl.length);
+    }, 700);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className='relative'>
         {/* <LeftBorderImage />
                 <RightBorderImage /> */}
                
                 <motion.div initial={{ opacity: 0, y: "30px" }} animate={{ opacity: 1, y: 0}} transition={{ duration: 0.8, ease: "easeInOut" }} className='relative bg-[#faf3e9] h-screen'>
-  <img src="./LandingPage/Main_img.png" alt="" className='object-contain h-full' />
+  <img src={imgarrurl[imgToShow]} alt="" className='object-contain h-full' />
   <div className='lg:absolute lg:top-[40%] lg:left-[60%] flex flex-col lg:flex-row items-center lg:items-start'>
     <div className='text-center lg:text-left'>
       <p className='lg:text-9xl font-bold text-8xl'>
