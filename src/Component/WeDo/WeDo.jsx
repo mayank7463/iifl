@@ -4,13 +4,13 @@ function WeDo() {
   return (
     <div className='container-margin'>
         <div className='mt-16 '>
-            <p className='lg:text-7xl sm:text-5xl font-bold text-[#f47732] py-8'>What We Do For You</p>
-            <p className='lg:text-5xl sm:text-2xl'>#Sapnonkosachkarnekaseedharaasta</p>
+            <p className='lg:text-6xl text-4xl font-bold text-[#f47732] py-8'>What We Do For You</p>
+            <p className='lg:text-5xl text-3xl'>#Sapnonkosachkarnekaseedharaasta</p>
             <div className='mt-16'>
                  <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
                      <div>
-                        <p className='text-4xl  font-bold text-[#1b328a]'>Home Loan</p>
-                        <p className='lg:text-4xl lg:max-w-[49%] pt-8'>We not only offer home loan solutions
+                        <p className='text-3xl  font-bold text-[#1b328a]'>Home Loan</p>
+                        <p className='text-3xl lg:max-w-[65%] pt-8'>We not only offer home loan solutions
                         for the purchase, construction and
                         renovation of homes, we believe in
                         creating spaces for the masses of the
@@ -33,38 +33,37 @@ function WeDo() {
                         economic development.</p>
                      </div>
                      <div>
-                         <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-2 pt-16 pb-16'>
+                         <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-2 pt-16 pb-16'>
                                 <div>
-                                    <p className='text-7xl text-[#f48172] font-bold'>73,000+</p>
-                                    <p className='text-4xl pt-6'>Loans to CLSS Beneficiaries</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>73,000+</p>
+                                    <p className='text-3xl pt-6'>Loans to CLSS Beneficiaries</p>
                                 </div>
                                 <div>
-                                    <p className='text-7xl text-[#f48172] font-bold'>26,690+</p>
-                                    <p className='text-4xl pt-6'>Loans Disbursed to BLC
+                                    <p className='text-6xl text-[#f48172] font-bold'>26,690+</p>
+                                    <p className='text-3xl pt-6'>Loans Disbursed to BLC
                                     Households</p>
                                 </div>
-                         </div>
-                         <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 pt-16 pb-16'>
                                 <div>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹1,753 <sub>Cr[$218.75Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Credit Linked Subsidy (Under
+                                    <p className='text-6xl text-[#f48172] font-bold'>1,38,120+*</p>
+                                    <p className='text-3xl pt-6'>Loans to People From
+                                    Informal Sector</p>
+                                </div>
+                         </div>
+                         <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-4 pt-16 pb-16'>
+                                <div>
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹1,753 <sub>Cr[$218.75Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Credit Linked Subsidy (Under
                                         PMAY) Facilitated</p>
                                 </div>
                                 <div>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹694.05<sub>Cr[$0.84Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Disbursed to Beneficiary
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹694.05<sub>Cr[$0.84Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Disbursed to Beneficiary
                                     Led Construction (BLC)
                                     and Affordable Housing in
                                     Partnership (AHP) in FY 2023-24</p>
                                 </div>
                          </div>
-                         <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-4 pt-16 pb-16'>
-                                <div>
-                                    <p className='text-7xl text-[#f48172] font-bold'>1,38,120+*</p>
-                                    <p className='text-4xl pt-6'>Loans to People From
-                                    Informal Sector</p>
-                                </div>
-                         </div>
+                        
                      </div>
                  </div>
             </div>
@@ -72,30 +71,30 @@ function WeDo() {
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16'>
              <div className='flex flex-col '>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>2,98,160+*</p>
-                                    <p className='text-4xl pt-6'>Overall Customers</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>2,98,160+*</p>
+                                    <p className='text-3xl pt-6'>Overall Customers</p>
                                 </div>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>2,59,520+*</p>
-                                    <p className='text-4xl pt-6'>First Time Home Buyers</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>2,59,520+*</p>
+                                    <p className='text-3xl pt-6'>First Time Home Buyers</p>
                                 </div>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>2,09,650</p>
-                                    <p className='text-4xl pt-6'>Active Customers</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>2,09,650</p>
+                                    <p className='text-3xl pt-6'>Active Customers</p>
                                 </div>
                                 <div className='mt-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹15.28<sub>Lakh[$0.018Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Average Ticket Size</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹15.28<sub>Lakh[$0.018Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Average Ticket Size</p>
                                 </div>
              </div>
-             <div className=''>
-                  <img src="./WeDo/wedo_img-1.svg" alt="" className='w-[90%]' />
+             <div className='w-[70%]'>
+                  <img src="./WeDo/wedo_img-1.svg" alt="" className='w-full' />
              </div> 
         </div>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
              <div>
-                 <p className='text-4xl font-bold text-[#1b328a] pt-4'>Secured Business Loan</p>
-                 <p className='text-4xl pt-8'>Our Secured Business Loan offers
+                 <p className='text-3xl font-bold text-[#1b328a] pt-4'>Secured Business Loan</p>
+                 <p className='text-3xl pt-8'>Our Secured Business Loan offers
                     financial support for small businesses
                     against property collateral. It helps to
                     meet working capital requirements
@@ -108,16 +107,16 @@ function WeDo() {
                     and flexible repayment schedules.</p>
                     <div className='flex flex-col '>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹25.54 <sub>Lakh[$0.03Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Average Ticket Size</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹25.54 <sub>Lakh[$0.03Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Average Ticket Size</p>
                                 </div>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>57,490+*</p>
-                                    <p className='text-4xl pt-6'>MSMEs Empowered</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>57,490+*</p>
+                                    <p className='text-3xl pt-6'>MSMEs Empowered</p>
                                 </div>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹1,421.57* <sub>cr[$173.36Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Value Disbursed</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹1,421.57* <sub>cr[$173.36Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Value Disbursed</p>
                                 </div>
                    </div>
              </div>
@@ -127,8 +126,8 @@ function WeDo() {
         </div>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16'>
              <div>
-                 <p className='text-4xl font-bold text-[#1b328a] pt-4'>Shakthi Loan</p>
-                 <p className='text-4xl pt-8'>Shakthi Loan is a specialised Loan
+                 <p className='text-3xl font-bold text-[#1b328a] pt-4'>Shakthi Loan</p>
+                 <p className='text-3xl pt-8'>Shakthi Loan is a specialised Loan
                     Against Property tailored for small
                     businesses and unorganised sectors
                     in India, such as shopkeepers, grocers,
@@ -153,16 +152,16 @@ function WeDo() {
                     sections of society.</p>
                     <div className='flex flex-col '>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹4.93 <sub>Lakh[$0.006 Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Average Ticket Size</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹4.93 <sub>Lakh[$0.006 Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Average Ticket Size</p>
                                 </div>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>₹1,587.56*<sub>cr[$193.60 Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Value Disbursed</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>₹1,587.56*<sub>cr[$193.60 Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Value Disbursed</p>
                                 </div>
                                 <div className='mt-8 mb-8'>
-                                    <p className='text-7xl text-[#f48172] font-bold'>60,760+*<sub>cr[$173.36Mn]</sub></p>
-                                    <p className='text-4xl pt-6'>Customers Served</p>
+                                    <p className='text-6xl text-[#f48172] font-bold'>60,760+*<sub>cr[$173.36Mn]</sub></p>
+                                    <p className='text-3xl pt-6'>Customers Served</p>
                                 </div>
                    </div>
              </div>
@@ -172,20 +171,20 @@ function WeDo() {
         </div>
         <div className='mt-16 mb-16'>
               <div>
-                  <p className='text-5xl font-bold text-[#1b328a] pt-4'>Expanded Lending Services</p>
-                  <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 gap-4 '>
+                  <p className='text-4xl font-bold text-[#1b328a] pt-4'>Expanded Lending Services</p>
+                  <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 gap-6 '>
                        <div>
-                            <p className='text-4xl text-[#f48172] font-bold pt-4'>Efficient Co-Lending Model</p>
-                            <p className='text-4xl pt-8'>Our co-lending model aims to enhance
+                            <p className='text-3xl text-[#f48172] font-bold pt-4'>Efficient Co-Lending Model</p>
+                            <p className='text-3xl pt-8'>Our co-lending model aims to enhance
                             access to affordable housing finance
                             in Partnership with major banks. This
                             initiative aligns with the government’s
                             efforts to provide credit to marginalised
                             segments, ensuring availability of
                             home loans at competitive rates.</p>
-                            <p className='text-4xl text-[#f48172] font-bold pt-4'>Home Loan for Uniformed
+                            <p className='text-3xl text-[#f48172] font-bold pt-4'>Home Loan for Uniformed
                             Services</p>
-                            <p className='text-4xl pt-8'>Dedicated to India’s defence and
+                            <p className='text-3xl pt-8'>Dedicated to India’s defence and
                             paramilitary forces, this loan offers
                             exclusive benefits such as reduced
                             interest rates, minimal processing
@@ -193,8 +192,8 @@ function WeDo() {
                             insurance up to H 3 Lakh.</p>
                        </div>
                        <div>
-                             <p className='text-4xl text-[#f48172] font-bold pt-4'>ONE HOME</p>
-                            <p className='text-4xl pt-8'>Launched in August 2023, One Home
+                             <p className='text-3xl text-[#f48172] font-bold pt-4'>ONE HOME</p>
+                            <p className='text-3xl pt-8'>Launched in August 2023, One Home
                             was conceptualized looking at the
                             urgent need of a platform that caters
                             to e-auctions, buy and sell properties
@@ -202,7 +201,7 @@ function WeDo() {
                             digitized e-auction process making
                             participating, bidding and finally buying
                             in e-auctions easy.</p>
-                            <p className='text-4xl pt-8'>For several market players in the real
+                            <p className='text-3xl pt-8'>For several market players in the real
                             estate sector transaction management
                             is still happening offline, here, One
                             home is a platform that is completely
@@ -210,7 +209,7 @@ function WeDo() {
                             which allows its partners to sell of
                             their NPA properties easily.</p>
                             <p className='text-7xl text-[#f48172] font-bold pt-16'>1800+</p>
-                            <p className='text-4xl pt-4'>E-Auctions Held on
+                            <p className='text-3xl pt-4'>E-Auctions Held on
                             the Platform</p>
                        </div>
                   </div>

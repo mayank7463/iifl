@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Footer.css'
 const Footer = () => {
   return (
     
@@ -10,7 +10,7 @@ const Footer = () => {
             {/* <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src="./Navbar/iifl_logo.svg" class="h-17" alt="Flowbite Logo" />
             </a> */}
-            <ul class="flex flex-wrap items-center mb-6  font-medium gap-4 sm:mb-0 ">
+            <ul class="flex flex-wrap items-center mb-6  font-medium gap-4 sm:mb-0 footer-iifl ">
                 <li>
                     <a target='_blank' href="https://www.iifl.com/finance/about-us" class="hover:underline me-4 md:me-6">About</a>
                 </li>

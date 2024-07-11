@@ -1,0 +1,87 @@
+.icon {
+    grid-row: 1;
+    grid-column: 1;
+    transition: transform 0.35s ease-in-out;
+  }
+  
+  .icon span {
+    display: block;
+  }
+  
+  .text {
+    grid-row: 1;
+    grid-column: 1;
+    transition: transform 0.75s 0.75s ease-in-out;
+  }
+  
+  .bar {
+    transition: transform 5s, background-color 5s;
+  }
+  
+  button.is-downloading .icon {
+    transform: translateX(calc(50% - 1em));
+  }
+  
+  button.is-downloading .text {
+    transform: translateY(2.85714285714em);
+  }
+  
+  button.is-complete .icon {
+    transform: translateX(calc(50% - 1em));
+    animation: exit 0.35s 1s ease-out forwards;
+  }
+  
+  button.is-complete {
+    flex-direction: column;
+  }
+  
+  button.is-complete .text {
+    transform: translateY(0);
+    padding: 0 0 0 1em;
+  }
+  
+  button.is-downloading .bar,
+  button.is-complete .bar {
+    transform: scaleX(1);
+    background: #66cc9a;
+  }
+  
+  button.is-downloading #arrow {
+    animation: bob 1.35s ease-out infinite;
+  }
+  
+  button.is-complete #tick2 {
+    stroke-dashoffset: 0;
+  }
+  
+  button.is-complete #stem {
+    opacity: 0;
+  }
+  
+  #tick2 {
+    transition: all 1.5s;
+    stroke-dasharray: 100px;
+    stroke-dashoffset: 100px;
+  }
+  
+  @keyframes bob {
+    0% {
+      transform: none;
+    }
+    50% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: none;
+    }
+  }
+  
+  @keyframes exit {
+    0% {
+      transform: translateX(calc(50% - 1em)) translateY(5%);
+    }
+    100% {
+      transform: translateX(calc(50% - 1em)) translateY(-102%);
+    }
+  }
+  

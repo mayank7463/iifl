@@ -13,6 +13,7 @@ import Environment from '../Environment/Environment';
 import LeftBorderImage from '../Border/LeftBorderImage';
 import RightBorderImage from '../Border/RightBorderImage';
 import CardDemo from '../Card/CardDemo';
+import DownloadButton from '../DownloadButton/DownloadButton';
 function LandingPage() {
   const imgarrurl = ['./Main_img.png', './Main_img2.png'];
   const [imgToShow, setImageToShow] = useState(0);
@@ -37,15 +38,20 @@ function LandingPage() {
       <p className='lg:text-9xl font-bold text-8xl'>
         <span className='text-[#1b3281]'><TextAnimation text={'We,'} /></span>
         <span className='text-[#f47f3d]'><TextAnimation text={'for you.'} /></span>
+       
       </p>
       <p className='lg:text-5xl!important  pt-10 text-5xl'>
         <TextAnimation01 text={'Digital'} /> | <TextAnimation01 text={'Resilient'} /> | <TextAnimation01 text={'Sustainable'} />
+       
       </p>
       {/* <div className='lg:text-4xl pt-8'>
         <motion.p initial={{ opacity: 0, translateX: "-50px" }} animate={{ opacity: 1, translateX: 0 }} transition={{ delay: 0.3 }} className='pt-2'>IIFL Home Finance Ltd.</motion.p>
         <motion.p initial={{ opacity: 0, translateX: "-50px" }} animate={{ opacity: 1, translateX: 0 }} transition={{ delay: 0.4 }} className='pt-2'>Integrated Annual</motion.p>
         <motion.p initial={{ opacity: 0, translateX: "-50px" }} animate={{ opacity: 1, translateX: 0 }} transition={{ delay: 0.5 }} className='pt-2'>Report 2023-24</motion.p>
       </div> */}
+        <div className='pt-8'>
+           <DownloadButton/>
+        </div>
     </div>
   </div>
 </motion.div>

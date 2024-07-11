@@ -3,7 +3,7 @@ import React from 'react'
 const EsgCommitments = () => {
     return (
         <div className='marginal'>
-            <h1 className='font-bold text-7xl text-orange my-10'>
+            <h1 className='font-bold lg:text-7xl text-5xl text-orange my-10'>
                 ESG Commitments
             </h1>
             <div className='flex flex-wrap justify-between'>

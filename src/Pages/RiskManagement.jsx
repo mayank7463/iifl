@@ -2,10 +2,10 @@ import React from "react";
 
 const RiskManagement = () => {
   return (
-    <div className="marginal mx-auto p-4">
+    <div className="marginal mb-8 p-4">
       {/* Header */}
       <div className=" mt-5">
-        <h1 className='font-bold text-7xl text-orange my-10'>
+        <h1 className='font-bold lg:text-7xl text-4xl text-orange my-10'>
           Risk Management
         </h1>
       </div>
@@ -13,7 +13,7 @@ const RiskManagement = () => {
       {/* Mitigating Threats Proactively */}
       <div className="flex flex-col md:flex-row gap-8 mt-5">
         <div className="md:w-2/3">
-          <h4 className='text-blue font-semibold text-4xl mb-3'>
+          <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>
             Mitigating Threats Proactively
           </h4>
           <p className="text-[#575756]">
@@ -39,7 +39,7 @@ const RiskManagement = () => {
 
       {/* Risk Assessment Methodology */}
       <div className="mt-10">
-        <h4 className='text-blue font-semibold text-4xl mb-3'>
+        <h4 className='text-blue font-semibold lg:text-4xl text-3xl mb-3'>
           Risk Assessment Methodology
         </h4>
       </div>
