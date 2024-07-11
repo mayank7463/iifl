@@ -5,7 +5,6 @@ function WhoWeAre() {
     <div className='container-margin'>
           
             <div className='mt-16'>
-                
                 <p className='lg:text-6xl text-4xl font-bold text-[#f47732] py-4'>Who We Are</p>
                 <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-[#f4f4f3] p-16 mt-8'>
                     <div className='flex flex-col pt-16 text-3xl'>
