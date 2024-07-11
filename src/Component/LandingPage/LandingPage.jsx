@@ -39,7 +39,7 @@ function LandingPage() {
         <motion.p initial={{ opacity: 0, translateX: "-50px" }} animate={{ opacity: 1, translateX: 0 }} transition={{ delay: 0.5 }} className='pt-2'>Report 2023-24</motion.p>
       </div> */}
         <div className='pt-8'>
-           <a href=""><DownloadButton/></a>
+           <DownloadButton/>
         </div>
     </div>
   </div>
