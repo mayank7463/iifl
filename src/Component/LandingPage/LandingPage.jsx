@@ -21,7 +21,7 @@ function LandingPage() {
                 <RightBorderImage /> */}
                
                 <motion.div initial={{ opacity: 0, y: "30px" }} animate={{ opacity: 1, y: 0}} transition={{ duration: 0.8, ease: "easeInOut" }} className='relative bg-[#faf3e9] h-screen'>
-  <motion.img src="./LandingPage/Main_img.png" alt="" className='object-contain h-full' />
+  <img src="./LandingPage/Main_img.png" alt="" className='object-contain h-full' />
   <div className='lg:absolute lg:top-[40%] lg:left-[60%] flex flex-col lg:flex-row items-center lg:items-start'>
     <div className='text-center lg:text-left'>
       <p className='lg:text-9xl font-bold text-8xl'>
