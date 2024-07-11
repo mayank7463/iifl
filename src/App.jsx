@@ -38,6 +38,7 @@ const App = ({ children }) => {
               
                 <Routes>
                     <Route path='/' element={<LandingPage />} />
+                    <Route path='/WhoWe' element={<WhoWeAre/>}/>
                     <Route path='/journey' element={<Journey/>} />
                     <Route path='/where' element={<WhereWeAre/>} />
                     <Route path='/wedo' element={<WeDo />} />

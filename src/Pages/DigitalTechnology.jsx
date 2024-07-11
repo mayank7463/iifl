@@ -22,21 +22,21 @@ const DigitalTechnology = () => {
                     </p>
                     <div className='flex flex-wrap justify-between mt-10'>
                         <div className='w-full md:w-[48%] mt-10'>
-                            <h1 className='text-orange mt-3 text-7xl font-semibold mt-10'>
+                            <h1 className='text-orange text-6xl font-semibold mt-10'>
                                 100%
                             </h1>
                             <p>
                                 Customers Onboarded <br />through Jhatpat Loan <br />Process
                             </p>
 
-                            <h1 className='text-orange mt-3 text-7xl font-semibold mt-10'>
+                            <h1 className='text-orange text-6xl font-semibold mt-10'>
                                 99%
                             </h1>
                             <p>
                                 Consumer Complaints Resolved
                             </p>
 
-                            <h1 className='text-orange mt-3 text-7xl font-semibold mt-10'>
+                            <h1 className='text-orange text-6xl font-semibold mt-10'>
                                 3.17
                             </h1>
                             <p>
@@ -44,13 +44,13 @@ const DigitalTechnology = () => {
                             </p>
                         </div>
                         <div className='w-full md:w-[48%] mt-10'>
-                            <h1 className='text-orange mt-3 text-7xl font-semibold mt-10'>
+                            <h1 className='text-orange mt-3 text-6xl font-semibold mt-10'>
                                 99,14,390+
                             </h1>
                             <p>
                                 Paper Sheets Saved
                             </p>
-                            <h1 className='text-orange mt-3 text-7xl font-semibold mt-10'>
+                            <h1 className='text-orange mt-3 text-6xl font-semibold mt-10'>
                                 1,86,110+*
                             </h1>
                             <p>
@@ -82,7 +82,7 @@ const DigitalTechnology = () => {
                     </p>
                     <div className='flex flex-wrap justify-between'>
                         <div className='w-full md:w-[48%]'>
-                            <h1 className='text-orange mt-3 text-7xl font-semibold'>
+                            <h1 className='text-orange mt-3 text-6xl font-semibold'>
                                 Zero
                             </h1>
                             <p>
@@ -90,7 +90,7 @@ const DigitalTechnology = () => {
                             </p>
                         </div>
                         <div className='w-full md:w-[48%]'>
-                            <h1 className='text-orange mt-3 text-7xl font-semibold'>
+                            <h1 className='text-orange mt-3 text-6xl font-semibold'>
                             Zero
                             </h1>
                             <p>

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <header>
-      <div className="container">
+      <div className="container nav-li">
         <nav>
           <div className="navbar-brand ">
            <Link to={'/'}><img src="./Navbar/iifl_logo.svg" alt="" className=''/></Link>
@@ -24,6 +24,7 @@ const Navbar = () => {
                 <div className={`dropdown-nav-ele ${isActive ? 'active' : ''}`}>
                   <div className='flex flex-wrap justify-between'>
                     <ul className='sm:w-full md:w-[48%] cursor-pointer'>
+                      <li><Link to="/WhoWe">Who We Are</Link></li>
                       <li><Link to="/journey">Looking Back At A Momentous Journey</Link></li>
                       <li><Link to='/where'>Where We Are</Link></li>
                       <li><Link to='/wedo'>What We Do For You</Link></li>
@@ -80,12 +81,12 @@ const Navbar = () => {
                     </ul>
                     <ul className='sm:w-full md:w-[48%]'>
                       <b>Consolidated</b>
-                      <li><Link to="#">Independent Auditor’s Report</Link></li>
-                      <li><Link to="#">Consolidated Balance Sheet</Link></li>
-                      <li><Link to="#">Consolidated Statement of Profit and Loss</Link></li>
-                      <li><Link to="#">Consolidated Statement of Cash Flows</Link></li>
-                      <li><Link to="#">Consolidated Statement of Changes in Equity</Link></li>
-                      <li><Link to="#">Notes to the Financial Statements</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Independent Auditor’s Report consolidated.pdf'}>Independent Auditor’s Report</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Consolidated Balance Sheet.pdf'}>Consolidated Balance Sheet</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Consolidated Statement of Profit and Loss.pdf'}>Consolidated Statement of Profit and Loss</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Consolidated Statement of Cash Flows.pdf'}>Consolidated Statement of Cash Flows</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Consolidated Statement of Changes in Equity.pdf'}>Consolidated Statement of Changes in Equity</Link></li>
+                      <li><Link target='_blank' to={'./pdf/Notes to the Financial Statements consolidated.pdf'}>Notes to the Financial Statements</Link></li>
                     </ul>
                   </div>
                 </div>

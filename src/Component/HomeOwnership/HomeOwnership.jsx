@@ -29,11 +29,9 @@ function HomeOwnership() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <img
-              src="./Home/home_img-1.png"
-              alt="Homeownership"
-              className="rounded-lg shadow-image"
-            />
+            <div >
+                 <img src="./Home/home_img-1.png" alt="Homeownership" className="rounded-lg shadow-image"/>
+            </div>
           </motion.div>
         </div>
       </motion.div>
