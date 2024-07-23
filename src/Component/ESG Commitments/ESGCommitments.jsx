@@ -25,6 +25,9 @@ function ESGCommmitments() {
 
   return (
     <div className='mt-16 marginal'>
+      <p className='text-center text-6xl font-extrabold pt-8 text-[#f47732] my-8'>
+            ESG Commitments
+          </p>
       <div className='py-12 px-6 bg-gray-50'>
         <motion.div 
           ref={textRef}
@@ -32,9 +35,7 @@ function ESGCommmitments() {
           animate={textInView ? textAnimation.animate : {}} 
           transition={textAnimation.transition}
         >
-          <p className='text-center text-6xl font-extrabold pt-8 text-[#f47732] my-8'>
-            ESG Commitments
-          </p>
+          
         </motion.div>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 items-center'>
           <motion.div 
@@ -46,8 +47,8 @@ function ESGCommmitments() {
           >
             <img 
               src="./esg.jpg" 
-              alt="HIL" 
-              className='rounded-lg shadow-lg'
+              alt="IIfl" 
+              className='rounded-lg shadow-lg '
             />
           </motion.div>
           <motion.div 
@@ -67,7 +68,7 @@ function ESGCommmitments() {
           </motion.div>
         </div>
       </div>
-      <div className='flex justify-center mt-4'>
+      <div className='flex justify-center mt-4 py-4'>
         <Link to={'/esg-commitments'}>
           <ReadMoreButton />
         </Link>

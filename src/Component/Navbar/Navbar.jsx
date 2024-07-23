@@ -145,16 +145,16 @@ const Navbar = () => {
           <li>
             <a href="#" className="menu-item">Statutory Reports</a>
             <ul className="dropdown-menu">
-              <li><Link target='_blank' to={''} className="menu-item">Directors’ Report</Link></li>
-              <li><Link target='_blank' to={''} className="menu-item">Report on Corporate Governance</Link></li>
-              <li><Link target='_blank' to={''} className="menu-item">Management Discussion and Analysis</Link></li>
+              <li><Link target='_blank' to={'./pdf/Director Report.pdf'} className="menu-item">Directors’ Report</Link></li>
+              <li><Link target='_blank' to={'./pdf/CG.pdf'} className="menu-item">Report on Corporate Governance</Link></li>
+              <li><Link target='_blank' to={'./pdf/mda.pdf'} className="menu-item">Management Discussion and Analysis</Link></li>
             </ul>
           </li>
           <li>
             <a href="#" className="menu-item">Financial Statements</a>
             <ul className="dropdown-menu">
-              <li><Link target='_blank' to={''} className="menu-item">Standalone</Link></li>
-              <li><Link target='_blank' to={''} className="menu-item">Consolidated</Link></li>
+              <li><Link target='_blank' to={'./pdf/Standalone Statements.pdf'} className="menu-item">Standalone</Link></li>
+              <li><Link target='_blank' to={'./pdf/Consolidated Statements.pdf'} className="menu-item">Consolidated</Link></li>
             </ul>
           </li>
           {/* <li><Link target='_blank' to={'./Pdf/Notice.pdf'} className="menu-item"></Link></li> */}
