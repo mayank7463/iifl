@@ -33,8 +33,11 @@ function LandingPage() {
     <div className='relative'>
         {/* <LeftBorderImage />
                 <RightBorderImage /> */}
-               
+              
                 <motion.div initial={{ opacity: 0, y: "30px" }} animate={{ opacity: 1, y: 0}} transition={{ duration: 0.8, ease: "easeInOut" }} className='relative bg-[#faf3e9] h-screen'>
+                <div className="absolute text-black bottom-[1%] right-[30px] text-2xl">
+      IIFL Home Finance Ltd. Integrated Annual Report 2023-24
+      </div>
   <img src={imgarrurl[imgToShow]} alt="" className='object-contain h-full' />
   <div className='lg:absolute lg:top-[40%] lg:left-[60%] flex flex-col lg:flex-row items-center lg:items-start'>
     <div className='text-center lg:text-left'>
@@ -52,7 +55,7 @@ function LandingPage() {
         <motion.p initial={{ opacity: 0, translateX: "-50px" }} animate={{ opacity: 1, translateX: 0 }} transition={{ delay: 0.4 }} className='pt-2'>Integrated Annual</motion.p>
         <motion.p initial={{ opacity: 0, translateX: "-50px" }} animate={{ opacity: 1, translateX: 0 }} transition={{ delay: 0.5 }} className='pt-2'>Report 2023-24</motion.p>
       </div> */}
-        <div className='pt-8'>
+        <div className='pt-8 mt-10'>
            <DownloadButton/>
         </div>
     </div>
@@ -69,6 +72,7 @@ function LandingPage() {
       <BuildingStrength/>
       <Financial/>
       <Environment/>
+      
     </div>
   )
 }

@@ -5,7 +5,7 @@ function Environment() {
   return (
     <div className="relative flex flex-col-reverse lg:flex-col items-center justify-center">
       <div className='relative w-full'>
-        <img src="./Home/home_img-8.svg" alt="" className="w-full m-auto lg:mt-0 mt-4"/>
+        <img src="./Home/home_img-8.svg" alt="" className="w-[96%] m-auto lg:mt-0 mt-4"/>
         <motion.div
           className='absolute left-[70%] top-[-38%] w-[14%] h-full'
           animate={{ y: [0, -20, 0] }}
