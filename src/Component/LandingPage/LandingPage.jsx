@@ -32,7 +32,7 @@ function LandingPage() {
                 <RightBorderImage /> */}
               
                 <motion.div initial={{ opacity: 0, y: "30px" }} animate={{ opacity: 1, y: 0}} transition={{ duration: 0.8, ease: "easeInOut" }} className='relative bg-[#faf3e9] h-screen'>
-                <div className="absolute text-black bottom-[1%] right-[10px] text-2xl">
+                <div className="absolute text-black bottom-[1%] right-[30px] text-2xl">
       IIFL Home Finance Ltd. Integrated Annual Report 2023-24
       </div>
   <img src={imgarrurl[imgToShow]} alt="" className='object-contain h-full' />
