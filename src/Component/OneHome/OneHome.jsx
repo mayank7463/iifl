@@ -4,7 +4,7 @@ function OneHome() {
   return (
     <div className='container-margin mt-16 mb-16'>
          <p className='lg:text-6xl sm:text-5xl font-bold pt-8 text-[#f47732]'>IIFL One Home</p>
-         <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-8 mb-16'>
+         <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-8 mb-16 bg-[#f7f7f7] p-10'>
             <div className=''>
                  <p className='lg:text-4xl pt-16'>In August 2023, we
                     introduced ‘One Home,’ an

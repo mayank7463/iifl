@@ -6,11 +6,11 @@ function WeDo() {
         <div className='mt-16 '>
             <p className='lg:text-6xl text-4xl font-bold text-[#f47732] py-8'>What We Do For You</p>
             <p className='lg:text-5xl text-3xl'>#Sapnonkosachkarnekaseedharaasta</p>
-            <div className='mt-16'>
+            <div className='mt-16 bg-slate-50 p-5'>
                  <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
                      <div>
                         <p className='text-3xl  font-bold text-[#1b328a]'>Home Loan</p>
-                        <p className='text-3xl lg:max-w-[65%] pt-8'>We not only offer home loan solutions
+                        <p className='text-3xl lg:max-w-[65%] pt-10'>We not only offer home loan solutions
                         for the purchase, construction and
                         renovation of homes, we believe in
                         creating spaces for the masses of the
@@ -68,7 +68,7 @@ function WeDo() {
                  </div>
             </div>
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16 bg-[#f7f7f7] p-10'>
              <div className='flex flex-col '>
                                 <div className='mt-8 mb-8'>
                                     <p className='text-6xl text-[#f48172] font-bold'>2,98,160+*</p>
@@ -124,7 +124,7 @@ function WeDo() {
                 <img src="./WeDo/wedo_img-2.svg" alt="" className='w-full'/>
              </div>
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16 bg-[#f7f7f7] p-10'>
              <div>
                  <p className='text-3xl font-bold text-[#1b328a] pt-4'>Shakthi Loan</p>
                  <p className='text-3xl pt-8'>Shakthi Loan is a specialised Loan

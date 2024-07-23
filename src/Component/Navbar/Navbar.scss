@@ -48,7 +48,7 @@
     .menu-btn__lines::after {
       width: 1.5rem;
       height: 0.1rem;
-      background: #ffffff;
+      background: black;
       transition: all 0.4s ease-in-out;
     }
     .menu-btn__lines {
@@ -70,11 +70,11 @@
         background: transparent;
         &::before {
           transform: rotate(45deg) translate(-0.5rem, 0.5rem);
-          background: #ffffff;
+          background: #201e1e;
         }
         &::after {
           transform: rotate(-45deg) translate(-0.5rem, -0.5rem);
-          background: #ffffff;
+          background: #1c1b1b;
         }
       }
     }

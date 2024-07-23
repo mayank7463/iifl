@@ -104,7 +104,7 @@ const Navbar = () => {
       <header className="navbar sticky">
         <Link to={'/'} className="logo"><img src="./Navbar/iifl_logo.svg" className="h-10" alt="Hil Logo" /></Link>
         <div ref={menuBtnRef} className="menu-btn">
-          {/* <div className="menu-btn__lines"></div> */}
+          <div className="menu-btn__lines"></div>
         </div>
         <ul ref={menuItemsRef} className={`menu-items ${isMenuOpen ? 'open' : ''}`}>
           <li><Link to={'/'} className="menu-item">Home</Link></li>
@@ -122,12 +122,12 @@ const Navbar = () => {
                           <li><Link to={'/ceo-msg'} className="menu-item">CEO’s Message</Link></li>
                           <li><Link to={'/financial-highlights'} className="menu-item">Financial Highlights</Link></li>
                           <li><Link Link to={'/favourable'} className="menu-item">A Favourable Environment For Home-ownership</Link></li>
-                          <li><Link to={'/human-capital'} className="menu-item">Human Capital</Link></li>
                           <li><Link to={'/building-strength'} className="menu-item">Building Strength for Tomorrow</Link></li>
+                          <li><Link to={'/value-creation'} className="menu-item">Our Approach to Value Creation</Link></li>
                          
                     </div>
                     <div>
-                          <li><Link to={'/value-creation'} className="menu-item">Our Approach to Value Creation</Link></li>
+                          
                           <li><Link to={'/digital-tech'} className="menu-item">Digital Technology and Productivity Enhancement</Link></li>
                           <li><Link to={'/esg-commitments'} className="menu-item">ESG Commitments</Link></li>
                           <li><Link to={'/empowered'} className="menu-item">An Empowered and Engaged Workforce</Link></li>

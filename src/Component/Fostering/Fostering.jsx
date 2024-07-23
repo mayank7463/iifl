@@ -87,7 +87,7 @@ function Fostering() {
             we have established community schools called Sakhiyon ki Baadi in villages, providing accessible education for girls with a curriculum
             aligned to Rajasthan’s government school textbooks. This initiative also conserves Indigenous languages, provides employment to native
             females, and promotes skill-building among marginalized communities.</p>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 mb-16 bg-[#f7f7f7] p-8'>
             <div className='flex flex-col mt-16'>
                     <div>
                         <p className='text-7xl text-[#f48172] font-bold'>300</p>
@@ -103,7 +103,7 @@ function Fostering() {
                 <img src="./Fostering/fos_img-5.png" alt="" />
             </div>
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 py-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 py-16 bg-[#f7f7f7] p-8'>
             <div>
                 <p className='lg:text-4xl text-3xl font-bold text-[#1b328a] py-16'>Project Chauras</p>
                 <p className='text-3xl'>Chauras is a combined learning centre and crèche
@@ -138,7 +138,7 @@ function Fostering() {
                 <img src="./Fostering/fos_img-6.png" alt="" />
             </div>
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 py-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 py-16 '>
             <div>
                 <img src="./Fostering/fos_img-7.png" alt="" />
             </div>
@@ -169,7 +169,7 @@ function Fostering() {
             </div>
             
         </div>
-        <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8'>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8 bg-[#f7f7f7] p-8'>
             <div>
                 <p className='lg:text-4xl text-3xl font-bold text-[#1b328a] pt-16'>Project Pankh</p>
                 <p className='text-3xl pt-16'>To create a conducive learning environment for the children
@@ -227,7 +227,7 @@ function Fostering() {
                 </div>
             </div>
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-16 mb-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-16 mb-16 bg-[#f7f7f7] p-8'>
              <div>
                 <p className='lg:text-4xl text-3xl font-bold text-[#1b328a] pt-16'>Project Smart Shala</p>
                 <p className='text-3xl pt-16'>IIFL Foundation has partnered with Sampark Foundation
@@ -245,7 +245,7 @@ function Fostering() {
                  <img src="./Fostering/fos_img-9.png" alt="" />
              </div>
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-16 mb-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-16 mb-16 bg-[#f7f7f7] p-8'>
              <div>
                  
                   <img src="./Fostering/fos_img-10.png" alt="" />
@@ -263,7 +263,7 @@ function Fostering() {
              </div>
            
         </div>
-        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-16 mb-16'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 mt-16 mb-16 bg-[#f7f7f7] p-8'>
              <div>
                 <p className='lg:text-4xl text-3xl font-bold text-[#1b328a] pt-16'>Multi-speciality Hospital</p>
                 <p className='text-3xl pt-16'>An in-patient ward has been developed in Thane and Palghar

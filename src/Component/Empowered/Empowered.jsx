@@ -12,7 +12,7 @@ function Empowered() {
             journeys and engage our people in initiatives that ensure physical as well as mental
             well-being.</p>
         </div>
-        <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8 pt-16'>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-8 pt-16 '>
              <div>
                 <p className='lg:text-4xl text-3xl font-bold text-[#1b328a] pt-16'>Attracting and Retaining Top
                 Talent</p>

@@ -58,7 +58,6 @@ const App = ({ children }) => {
                     <Route path='/risk-management' element={<RiskManagement/>} />
                     <Route path='/bod' element={<BOD/>} />
                     <Route path='/awards' element={<Awards/>} />
-                  
                     <Route path='/who-we-are' element={<WhoWeAre/>} />
                     {children}
                 </Routes>

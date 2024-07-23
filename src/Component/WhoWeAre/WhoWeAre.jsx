@@ -6,7 +6,7 @@ function WhoWeAre() {
           
             <div className='mt-16'>
                 <p className='lg:text-6xl text-4xl font-bold text-[#f47732] py-4'>Who We Are</p>
-                <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-[#f4f4f3] p-16 mt-8'>
+                <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-4 bg-[#f7f7f7] p-16 mt-8'>
                     <div className='flex flex-col pt-16 text-3xl'>
                         <div>
                             This beautiful mural, displayed at the IIFL Home Finance Ltd. head office in Gurgaon, depicts an Indian home with
@@ -36,7 +36,7 @@ function WhoWeAre() {
                     across India. IIFL Home Finance Ltd. goes beyond financing homes. They contribute
                     to building a sustainable and inclusive future, one affordable home at a time.</p>
             </div>
-            <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16'>
+            <div className='grid lg:grid-cols-2 sm:grid-cols-1 mt-16 '>
                 <div className='text-3xl  flex flex-col pt-8'>
                     <p>IIFL Home Finance Ltd., India’s leading
                     affordable housing finance company is
@@ -64,11 +64,11 @@ function WhoWeAre() {
                 </div>
                 
 
-                <div className='w-[55%]'>
+                <div className='w-[59%]'>
                      <img src="./WhoWeAre/img-1.svg" alt="" className='w-full'/>
                 </div>
             </div>
-            <div className='grid lg:grid-cols-3 sm:grid-cols-1 mt-8 gap-4'>
+            <div className='grid lg:grid-cols-3 sm:grid-cols-1 mt-8 gap-8'>
                  <div className=''>
                     <img src="./Home/home_img-4.png" alt="" />
                     <p className='font-bold text-[#1b328a] text-4xl pt-4'>Mission</p>
@@ -118,7 +118,7 @@ function WhoWeAre() {
                     the public at large.</p>
                 </div>
             </div>
-            <div className='mt-16'>
+            <div className='my-16 bg-[#f7f7f7] p-16'>
                  <p className='lg:text-5xl text-4xl text-[#1b328a] font-bold'>Key Highlights (As on March 31st, 2024)</p>
                  <div className='grid lg:grid-cols-3 sm:grid-cols-1 gap-4 pt-16 pb-16'>
                     <div>

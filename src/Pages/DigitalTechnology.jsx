@@ -44,13 +44,13 @@ const DigitalTechnology = () => {
                             </p>
                         </div>
                         <div className='w-full md:w-[48%] mt-10'>
-                            <h1 className='text-orange mt-3 text-6xl font-semibold mt-10'>
+                            <h1 className='text-orange text-6xl font-semibold mt-10'>
                                 99,14,390+
                             </h1>
                             <p>
                                 Paper Sheets Saved
                             </p>
-                            <h1 className='text-orange mt-3 text-6xl font-semibold mt-10'>
+                            <h1 className='text-orange text-6xl font-semibold mt-10'>
                                 1,86,110+*
                             </h1>
                             <p>

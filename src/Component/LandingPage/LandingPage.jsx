@@ -17,6 +17,7 @@ import DownloadButton from '../DownloadButton/DownloadButton';
 import BoardOfDirectorNew from '../Boardofdirector copy/BoardOfDirectorNew';
 import ESGCommmitments from '../ESG Commitments/ESGCommitments';
 import BuildingStrength from '../BuildingStrength/BuildingStrength';
+import ValueCreationHome from '../ValueCreationHome/ValueCreationHome';
 function LandingPage() {
   const imgarrurl = ['./Main_img.png', './Main_img2.png'];
   const [imgToShow, setImageToShow] = useState(0);
@@ -69,6 +70,7 @@ function LandingPage() {
       <Quote/>
       <ESGCommmitments/>
       {/* <BoardOfDirectorNew/> */}
+      <ValueCreationHome/>
       <BuildingStrength/>
       <Financial/>
       <Environment/>

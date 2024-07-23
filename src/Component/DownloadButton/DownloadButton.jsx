@@ -24,7 +24,7 @@ const DownloadButton = () => {
   };
 
   return (
-    <Link target="_blank" to={'./pdf/IIFL Home Finance Ltd. Annual Report 2023-24_(Low)_21.06.24.pdf'}>
+    <Link target="_blank" to={'https://storage.googleapis.com/iifl-hfc-storage/files/investor/financials/integrated-annual-report-fy-23-24.pdf?v=1#toolbar=0'}>
     <button
       className={`relative font-[700] overflow-hidden inline-grid items-center justify-center border  bg-white rounded-2xl py-4 w-[50%] text-black text-bold text-2xl ${
         isDownloading ? "is-downloading" : ""
