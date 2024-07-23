@@ -10,6 +10,7 @@
     min-width: 30px;
     min-height: 30px;
     background: #87283e;
+    z-index: -1;
 }
 
 .react-multiple-carousel__arrow:hover {

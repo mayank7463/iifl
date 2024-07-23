@@ -39,3 +39,18 @@
 li{
   list-style-type: disc;
 }
+
+
+
+  @media (min-width: 1023px) {
+    .test-menu{
+      left: -10% !important;
+      width: 390px !important;
+    } 
+  }
+
+.h-10 {
+    height: 4.5rem !important;
+}
+
+ 

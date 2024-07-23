@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 function WhoWeAreHome() {
   return (
-    <div>
+    <div className=''>
          <div className='container-margin '>
                 
                 <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-10'>

@@ -14,6 +14,9 @@ import LeftBorderImage from '../Border/LeftBorderImage';
 import RightBorderImage from '../Border/RightBorderImage';
 import CardDemo from '../Card/CardDemo';
 import DownloadButton from '../DownloadButton/DownloadButton';
+import BoardOfDirectorNew from '../Boardofdirector copy/BoardOfDirectorNew';
+import ESGCommmitments from '../ESG Commitments/ESGCommitments';
+import BuildingStrength from '../BuildingStrength/BuildingStrength';
 function LandingPage() {
   const imgarrurl = ['./Main_img.png', './Main_img2.png'];
   const [imgToShow, setImageToShow] = useState(0);
@@ -61,6 +64,9 @@ function LandingPage() {
       <CardDemo/>
       <Highlights/>
       <Quote/>
+      <ESGCommmitments/>
+      {/* <BoardOfDirectorNew/> */}
+      <BuildingStrength/>
       <Financial/>
       <Environment/>
     </div>

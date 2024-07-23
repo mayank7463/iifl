@@ -1,0 +1,19 @@
+.bod-sect{
+    margin: 5% 0;
+    font-weight: 700;
+
+}
+.bod-sect h1{
+    font-size: 40px;
+    margin: 5% 0;
+
+}
+.slick-initialized .slick-slide{
+    margin-left:10px !important;
+    width: 300px !important;
+}
+    
+.slick-dots li button:before{
+   font-size: 15px !important;
+   top: 20px;
+}
