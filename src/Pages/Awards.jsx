@@ -11,7 +11,7 @@ const Awards = () => {
         
         {/* Image */}
         <div className="flex justify-center w-full">
-          <img className="w-full md:w-2/3 lg:w-4/5" src='/src/assets/Awards.png' alt="Awards" />
+          <img className="w-full md:w-2/3 lg:w-4/5" src='./Awards/Awards.png' alt="Awards"/>
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ const RiskManagement = () => {
           </p>
         </div>
         <div className="md:w-1/2">
-          <img className="w-full" src="/src/assets/Risk1.png" alt="Risk Management" />
+          <img className="w-full" src="./src/assets/Risk1.png" alt="Risk Management" />
         </div>
       </div>
 
