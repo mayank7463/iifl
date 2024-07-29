@@ -4,14 +4,15 @@ import './Highlights.css';
 import TextAnimation01 from '../../AnimateText/AnimatedText01';
 
 const callouts = [
-  { id: 1, title: '₹35,498.55 Cr[$4.33Bn]', text: 'Assets Under Management (AUM)' },
+  { id: 1, title: '₹35,498.55 Cr\n[$4.33Bn]', text: 'Assets Under Management (AUM)' },
   { id: 2, title: '2,59,520+', text: 'First Time Home Buyers' },
   { id: 3, title: '2,15,690+', text: 'Women Borrowers/ Co-Borrowers' },
-  { id: 4, title: '₹14.26 Lakh[$0.017Mn]', text: 'Average Ticket Size' },
+  { id: 4, title: '₹14.26 Lakh\n[$0.017Mn]', text: 'Average Ticket Size' },
   { id: 5, title: '1,38,120+', text: 'Loans to Informal Segment' },
   { id: 6, title: '5,250+', text: 'Permanent Employees' },
-  { id: 7, title: '₹12,861 Cr[$ 1.57 Bn]', text: 'Value Disbursed' },
+  { id: 7, title: '₹12,861 Cr\n[$1.57Bn]', text: 'Value Disbursed' },
 ];
+
 
 
 const Highlights = () => {

@@ -129,10 +129,10 @@ function LandingPage() {
             { id: 'who-we-are-home', label: "Who We Are" },
             { id: 'highlights', label: "Key Highlights" },
             { id: 'quote', label: "CEO's Message" },
-            { id: 'esg-commitments', label: "ESG Commitments" },
+            { id: 'financial', label: "Financial Highlights" },
             { id: 'value-creation-home', label: "Our Approach to Value Creations" },
             { id: 'building-strength', label: "Building Strength for Tomorrow" },
-            { id: 'financial', label: "Financial Highlights" }
+            { id: 'esg-commitments', label: "ESG Commitments" }
           ].map((item, index) => (
             <button key={index} className='flex flex-col justify-center align-middle' onClick={(e) => handleClick(e, item.id, index)}>
               <img src={`./navdemo/${activeButton === index ? '03.svg' : '02.svg'}`} alt="" />
@@ -158,17 +158,18 @@ function LandingPage() {
       <div id="quote">
         <Quote />
       </div>
-      <div id="esg-commitments">
-        <ESGCommmitments />
+      <div id="financial">
+        <Financial />
       </div>
+      
       <div id="value-creation-home">
         <ValueCreationHome />
       </div>
       <div id="building-strength">
         <BuildingStrength />
       </div>
-      <div id="financial">
-        <Financial />
+      <div id="esg-commitments">
+        <ESGCommmitments />
       </div>
       <div id="environment">
         <Environment />
