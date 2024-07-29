@@ -37,19 +37,19 @@ function Environment() {
         <motion.div
           className='absolute left-[43%] top-[-6%] w-[6%] h-full'
           animate={{ y: [0, -20, 0] }}
-          transition={{ duration: 8, repeat: Infinity }}
+          transition={{ duration: 4, repeat: Infinity }}
         >
           <img src="./Home/home_img-13.svg" alt="" className="w-full h-full"/>
         </motion.div>
         <motion.div
-          className='absolute left-[12%] top-[5%] w-[6%] h-full'
+          className='absolute left-[12%] top-[5%] w-[6%]  overflow-hidden'
           animate={{ y: [0, -20, 0] }}
-          transition={{ duration: 9, repeat: Infinity }}
+          transition={{ duration: 4, repeat: Infinity }}
         >
           <img src="./Home/home_img-14.svg" alt="" className="w-full h-full"/>
         </motion.div>
       </div>
-      <div className="absolute top-[10%] left-[14%] hidden lg:block p-4">
+      <div className="absolute top-[10%] left-[14%] hidden lg:block p-4 ">
         <p className="text-2xl lg:text-4xl max-w-[33%] font-bold text-[#f48172]">
           IIFL HFL is committed to reducing environmental impact while enhancing societal benefits. We employ energy management systems, green lending programs, and effective waste management practices to optimise our operations. Our initiatives promote green and affordable housing, contributing to the development of sustainable communities.
         </p>

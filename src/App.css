@@ -11,6 +11,7 @@
   .sm\:flex-col {
       flex-direction: column !important;
   }
+  
 }
 .main-div-am >ul.main-div-am > div > ul 
 
@@ -53,4 +54,6 @@ li{
     height: 4.5rem !important;
 }
 
- 
+ .navbar{
+  text-align: left;
+ }

@@ -33,7 +33,7 @@ const RiskManagement = () => {
           </p>
         </div>
         <div className="md:w-1/2">
-          <img className="w-full" src="./Risk/Risk1.png" alt="Risk Management" />
+          <img className="w-full" src="../assets/Risk1.png" alt="Risk Management" />
         </div>
       </div>
 
@@ -46,7 +46,7 @@ const RiskManagement = () => {
 
       <div className="flex flex-col md:flex-row gap-8 mt-5">
         <div className="md:w-1/2">
-          <img className="w-full" src="./Risk/Risk2.png" alt="Risk Assessment Methodology" />
+          <img className="w-full" src="./assets/Risk2.png" alt="Risk Assessment Methodology" />
           <p className="mt-5 text-[#575756]">
             A comprehensive understanding of risk management throughout the various
             levels of an organisation helps in driving key decisions related to
@@ -60,7 +60,7 @@ const RiskManagement = () => {
           </p>
         </div>
         <div className="md:w-1/2">
-          <img className="w-full" src="./Risk/Risk3.png" alt="Risk Management Team" />
+          <img className="w-full" src="./assets/Risk3.png" alt="Risk Management Team" />
         </div>
       </div>
     </div>

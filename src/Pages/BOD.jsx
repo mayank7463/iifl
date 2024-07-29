@@ -12,7 +12,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b1.png"
+              src="./assets/b1.png"
               alt="Director 1"
             />
           </div>
@@ -42,7 +42,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b2.png"
+              src="./assets/b2.png"
               alt="Director 2"
             />
           </div>
@@ -80,7 +80,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b3.png"
+              src="./assets/b3.png"
               alt="Director 3"
             />
           </div>
@@ -112,7 +112,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b4.png"
+              src="./assets/b4.png"
               alt="Director 4"
             />
           </div>
@@ -145,7 +145,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b5.png"
+              src="./assets/b5.png"
               alt="Director 5"
             />
           </div>
@@ -177,7 +177,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b6.png"
+              src="./assets/b6.png"
               alt="Director 6"
             />
           </div>
@@ -235,7 +235,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b7.png"
+              src="./assets/b7.png"
               alt="Director 7"
             />
           </div>
@@ -262,7 +262,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b8.png"
+              src="./assets/b8.png"
               alt="Director 8"
             />
           </div>
@@ -291,7 +291,7 @@ const BOD = () => {
           <div className="col-span-1 md:col-span-1">
             <img
               className="w-full md:w-3/4 mx-auto"
-              src="./Bod/b9.png"
+              src="./assets/b9.png"
               alt="Director 9"
             />
           </div>

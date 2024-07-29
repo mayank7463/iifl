@@ -12,7 +12,7 @@ const ChairmansMessage = () => {
 
       {/* Image */}
       <div className="flex justify-center mt-5">
-        <img className="w-full md:w-full" src="/src/assets/M2.png" alt="Chairman's Message" />
+        <img className="w-full md:w-full" src="./assets/M2.png" alt="Chairman's Message" />
       </div>
 
       <div className="mt-10">

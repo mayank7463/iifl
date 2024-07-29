@@ -34,10 +34,10 @@ function BuildingStrength() {
         </h2>
         <div className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8 py-8'>
           <motion.div variants={itemVariants}>
-            <p className='text-4xl font-bold text-[#1b3281]'>
+            <motion.p initial={{x:"-40%"}} whileInView={{x:0}} transition={{duration:0.5,delay:0.3}} viewport={{once:true}} className='text-4xl font-bold text-[#1b3281]'>
               Empowering the Everyday Indian with Global Support.
-            </p>
-            <motion.p variants={itemVariants} className='text-gray-700 text-4xl font-medium py-8'>
+            </motion.p>
+            <motion.p initial={{x:"40%"}} whileInView={{x:0}} viewport={{once:true}} transition={{duration:0.5,delay:0.4}}  className='text-gray-700 text-2xl md:text-4xl  font-medium py-8'>
               At IIFL Home Loans, we believe everyone deserves the opportunity to build their dream home. We are committed to financial inclusion and expanding access to affordable housing finance, particularly for individuals from economically weaker sections of society.
             </motion.p>
             <motion.div variants={itemVariants} className='flex justify-start py-8'>

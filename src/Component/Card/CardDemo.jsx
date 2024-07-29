@@ -9,7 +9,7 @@ const CardDemo = () => {
                     <motion.div initial={{ x:"-100%" ,opacity: 0 }}
         whileInView={{x:0, opacity: 1 }}
         transition={{ duration: 0.6, ease: "easeInOut" }}
-        viewport={{ once: true }}  className='card-container'>
+        viewport={{ once: true }}  className='card-container md:flex-row flex-col'>
                        {
                         [{
                             imgSrc: "./Home/home_img-4.png",
@@ -26,7 +26,7 @@ const CardDemo = () => {
                             title: "Core Values",
                             description: "Our core values serve as a moral compass in all our activities. Fairness, Integrity and Transparency - FIT is thedriving force behind all that we do."
                           }].map((card, index) => (
-                            <div className='card'>
+                            <div className='card md:w-[24%]'>
                             <img src={card.imgSrc} alt="Vision Icon" />
                             <h3>{card.title}</h3>
                             <div className="card-content">
