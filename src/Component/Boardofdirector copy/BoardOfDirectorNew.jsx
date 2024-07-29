@@ -4,15 +4,15 @@ import { useInView } from 'react-intersection-observer';
 
 const BoardOfDirectorNew = () => {
   const bodArray = [
-    ["Mr. Srinivasan Sridhar", "(Chairman and Independent Director)", "/src/assets/b1.png"],
-    ["Mr. Arun Kumar Purwar", "(Independent Director)", "/src/assets/b2.png"],
-    ["Mr. Kabir Mathur", "(Nominee Director)", "/src/assets/b3.png"],
-    ["Mr. Mathew Joseph", "(Independent Director)", "/src/assets/b4.png"],
-    ["Mr. Monu Ratra", "(Executive Director and Chief Executive Officer)", "/src/assets/b5.png"],
-    ["Ms. Mohua Mukherjee", "(Independent Director)", "/src/assets/b6.png"],
-    ["Mr. Nirmal Jain", "(Non-Executive Director)", "/src/assets/b7.png"],
-    ["Mr. Rajamani Venkataraman", "(Non-Executive Director)", "/src/assets/b8.png"],
-    ["Mr. Venkataramanan Anantharaman", "(Independent Director)", "/src/assets/b9.png"],
+    ["Mr. Srinivasan Sridhar", "(Chairman and Independent Director)", "./assets/b1.png"],
+    ["Mr. Arun Kumar Purwar", "(Independent Director)", "./assets/b2.png"],
+    ["Mr. Kabir Mathur", "(Nominee Director)", "./assets/b3.png"],
+    ["Mr. Mathew Joseph", "(Independent Director)", "./assets/b4.png"],
+    ["Mr. Monu Ratra", "(Executive Director and Chief Executive Officer)", "./assets/b5.png"],
+    ["Ms. Mohua Mukherjee", "(Independent Director)", "./assets/b6.png"],
+    ["Mr. Nirmal Jain", "(Non-Executive Director)", "./assets/b7.png"],
+    ["Mr. Rajamani Venkataraman", "(Non-Executive Director)", "./assets/b8.png"],
+    ["Mr. Venkataramanan Anantharaman", "(Independent Director)", "./assets/b9.png"],
   ];
 
   const controls = useAnimation();

@@ -9,11 +9,11 @@ import { Link } from 'react-router-dom';
 const CustomPrevArrow = (props) => {
   const { className, style, onClick } = props;
   return (
-    <button
+   <button
       className={`${className} custom-prev`}
       style={{
         ...style,
-        display: 'block',
+        display:` ${window.innerWidth>=900?'block':'none'}`,
         background: '#58595b',
         borderRadius: '50%',
         width: '40px', // Adjust width as needed
@@ -33,7 +33,7 @@ const CustomNextArrow = (props) => {
       className={`${className} custom-next`}
       style={{
         ...style,
-        display: 'block',
+        display:` ${window.innerWidth>=900?'block':'none'}`,
         background: '#58595b',
         borderRadius: '50%',
         width: '40px', // Adjust width as needed

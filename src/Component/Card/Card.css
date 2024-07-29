@@ -20,7 +20,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-
+    
 }
 
 .card {
@@ -28,7 +28,6 @@
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
-    width: 24%;
     cursor: pointer;
     height: 300px;
     display: flex;
